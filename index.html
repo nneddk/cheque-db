@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = './index.js' defer></script>
+    <link rel = 'stylesheet' href="./index.css">
+    <title>cheque info</title>
+</head>
+<body>
+    <div class="field-div">
+        <button type = "button" id = "cheque-no-btn">Cheque No.</button>
+        <button type = "button" id = "description-btn">Description</button>
+        <button type = "button" id = "name-btn">Name</button>
+        <button type = "button" id = "amount-btn">Amount</button>
+        <button type = "button" id = "voucher-btn">Voucher No.</button>
+        <button type = "button" id = "date-btn">Date</button>
+        <button type = "button" id = "valid-btn">Valid</button>
+    </div>
+    <div id ='data-div'></div>
+    <form id = 'entry-div'>
+        <input type = 'number' placeholder="Cheque No." class="num-input" required>
+        <input type = 'text' placeholder="Description" class="text-input" required>
+        <input type = 'text' placeholder="Name" class="text-input" required>
+        <input type = 'text' id = "input-price" step = "any" placeholder="Amount" class="num-input" required>
+        <input type = 'number' placeholder="Voucher No." class="num-input" required>
+        <input type = 'date' id = "input-date" class="num-input" required>
+        <button type = "submit" id=" 'submit-btn">+</button>
+    </form>
+    <button type ="button" id="refresh-btn">+</button>
+</body>
+</html>
